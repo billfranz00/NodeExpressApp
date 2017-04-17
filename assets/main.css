@@ -1,0 +1,64 @@
+body {
+	background: orange;
+	font-family: verdana;
+	color: white;
+	padding: 30px;
+}
+
+h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+nav {
+	height: 40px;
+	background: black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	padding: 10px;
+	color: white;
+}
+
+li:hover {
+	background: white;
+	color: black;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+p,
+li {
+	font-size: 16px;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+label,
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
